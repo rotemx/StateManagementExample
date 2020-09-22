@@ -1,0 +1,38 @@
+1. component interaction
+    a. input - output
+    b. service
+
+* imperative programming - not good enough!
+(i.g.:jquery)
+
+[A] --  [B string[] -> Map<string> ] --- [C]
+ |       |       |
+[1] --      --- [3]
+ |    /
+[Z]  /
+
+[bound]
+
+* Change Detection
+- polling
+- observable/subscriber - rxjs (ex.)
+- re-render
+
+
+
+* State Management
+- naive
+- flux (design pattern) - facebook
+    1. redux - dan abramov (popular in react) (in angular - ngrx)
+    - overhead = a lot of infrastructure code
+    - boilerplate = lots of files, classes, functions, processes, etc,
+    to support the state management
+    - hard to follow
+    - hard to maintain
+    - need to change the way we program JavaScript (immutability)
+
+- reactive programming - observable/subscriber - MobX
+
+
+
+

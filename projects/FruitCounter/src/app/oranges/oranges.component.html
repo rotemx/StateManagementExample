@@ -1,0 +1,10 @@
+<p>oranges works!</p>
+
+<button (click)="fruitService.shoppingCart.push({name:'Orange', price:1.5})">
+	Add Orange
+</button>
+
+
+<app-shopping-cart
+		[products]="fruitService.shoppingCart"
+></app-shopping-cart>

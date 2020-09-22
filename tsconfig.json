@@ -12,6 +12,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/FruitCounter/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/FruitCounter/tsconfig.spec.json"
     }
 ]
 }
